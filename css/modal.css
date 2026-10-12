@@ -12,11 +12,13 @@
     align-items: center;
     pointer-events: all;
     pointer-events: none;
+    visibility:hidden;
 }
 
 .is-open{
     opacity:1;
     pointer-events: all;
+    visibility: visible;
 }
 
 .modal {
