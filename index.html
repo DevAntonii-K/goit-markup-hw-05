@@ -407,7 +407,7 @@
                 <form class="subscription-form">
                     <label class="subscription-label">
                         <span class="subscription-label-text">Subscribe</span>
-                        <input type="email" placeholder="E-mail" class="subscription-form-field">
+                        <input type="email" name="sub-email" id="sub-email" placeholder="E-mail" class="subscription-form-field">
                     </label>
                     <button type="submit" class="subscription-form-button">
                         Subscribe
@@ -421,10 +421,14 @@
     </footer>
     <div class="modal-overlay">
         <div id="modal" class="modal">
-            <div class="modal-close-btn"></div>
+            <button class="modal-close-btn">
+                <svg class="modal-close-btn_icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
             <form class="modal-form">
                 <fieldset class="fields-group">
-                    <legend class="fields-group_heading">Leave your contacts and we will call you back</legend>
+                    <p class="fields-group_heading">Leave your contacts and we will call you back</p>
                     <div class="contacts-fields-group">
                         <label class="label-group">
                             <span class="label-group_text">Name</span>

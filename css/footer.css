@@ -99,18 +99,18 @@
     line-height: 1.16;
     letter-spacing: 0.04em;
 
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscription-form-field::placeholder{
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: white;
 }
 
 .subscription-form-field:focus{
-    border: 1px solid #31D0AA;
+    border-color: #31D0AA;
 }
 
 .subscription-form-button {
